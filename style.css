@@ -1,36 +1,38 @@
 #tabs {
-  padding: 0;
   list-style: none;
+  width: 500px;
+  font-family: arial;
 }
 
 p {
-  margin: 0;
+  margin: 20px;
 }
 
 .content {
-  top: 120px;
   border: solid 1px rgb(96, 214, 231);
   height: 0px;
   overflow: hidden;
   transition: 1s;
+  color: rgb(107, 107, 107);
 }
 
 .show {
-  height: 100px;
+  height: 135px;
 }
 
 #tabs a {
-  background: rgb(96, 214, 231);
+  background: rgb(29, 192, 207);
   color: white;
+  text-decoration: none;
 }
 
-#tabs a.active {
-  border: 3px solid black;
+#tabs a:focus {
+  background: rgb(33, 216, 232);
 }
 
 a {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  margin: 1px;
+  border: 1px solid rgb(26, 172, 186);
 }
